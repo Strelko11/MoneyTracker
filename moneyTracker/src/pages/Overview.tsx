@@ -1,21 +1,13 @@
+
 import NavBar from "../components/NavBar";
+import NetWorth from "../components/overview/NetWorth";
 
 export default function Overview() {
     return (
-        <>
-            <NavBar />
-            <div>
-                <p style={styles.NetWorth}>NET WORTH</p>
-                <p>100 000$</p>
-                <p>+ 3000 $</p>
-            </div>
-            
-        </>
-    )
+            <>
+                <NavBar />
+                <NetWorth/>
+            </>
+        )
 }
 
-const styles = {
-    NetWorth: {
-        color: "var(--color-accent-500)"
-    }
-}

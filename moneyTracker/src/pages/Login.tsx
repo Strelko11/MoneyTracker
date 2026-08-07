@@ -3,10 +3,6 @@ import { supabase } from "../lib/supabase"
 import { useState } from "react"
 
 
-
-
-
-
 type Credentials = {
     email: string,
     password: string 
